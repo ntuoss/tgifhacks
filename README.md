@@ -2,6 +2,7 @@
 
 You can find a full list of TGIFHacks events [here](http://ntuoss.com/events.html) or [on Facebook](https://www.facebook.com/ntuoss/events/). Listed below are the resources for some of the workshops available online.
 
+- #69 - Telegram Bots ([GitHub Repo](https://github.com/clarencecastillo/NTUOSS-TelegramBotsWorkshop))
 - #68 - Web Development 101 ([GitHub Repo](https://github.com/SuyashLakhotia/NTUOSS-Bootstrap4Workshop))
 - #66 - Internships in Tech ([Slides](http://suyashlakhotia.com/blog/2017/05/06/internships-in-tech.html))
 - #57 - Building a Real-Time Chat Application w/ Firebase ([GitHub Repo](https://github.com/aliasgarlabs/NTUOSSChatApp))
