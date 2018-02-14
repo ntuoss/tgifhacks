@@ -2,6 +2,10 @@
 
 You can find a full list of TGIFHacks events [here](http://ntuoss.com/events.html) or [on Facebook](https://www.facebook.com/ntuoss/events/). Listed below are the resources for some of the workshops available online.
 
+- #75 - Building Chat Apps w/ Flask & WebSockets ([GitHub Repo](https://github.com/jarrettyeo/NTUOSS-FlaskWebSocketChatApp))
+- #74 - Introduction to Machine Learning ([GitHub Repo](https://github.com/chaitjo/NTUOSS-MachineLearningWorkshop))
+- #73 - Using Selenium & Facebook API on Udemy ([GitHub Repo](https://github.com/jarrettyeo/NTUOSS-SeleniumFacebookAPIforUdemy))
+- #70 - Intro to VueJS and Firebase ([GitHub Repo](https://github.com/kunmishra2599/NTUOSS-VuejsWorkshop))
 - #69 - Telegram Bots ([GitHub Repo](https://github.com/clarencecastillo/NTUOSS-TelegramBotsWorkshop))
 - #68 - Web Development 101 ([GitHub Repo](https://github.com/SuyashLakhotia/NTUOSS-Bootstrap4Workshop))
 - #66 - Internships in Tech ([Slides](http://suyashlakhotia.com/blog/2017/05/06/internships-in-tech.html))
@@ -16,3 +20,5 @@ You can find a full list of TGIFHacks events [here](http://ntuoss.com/events.htm
 - #21 - GitHub ([GitHub Repo](https://github.com/ntuoss/workshops-archive/tree/master/TGIFHacks%20%2321%20-%20GitHub))
 - #11 - Open Source Contribution ([GitHub Repo](https://github.com/ntuoss/workshops-archive/tree/master/TGIFHacks%20%2311%20-%20Open%20Source%20Contribution))
 - #08 - Intro to Arduino ([GitHub Repo](https://github.com/ntuoss/workshops-archive/tree/master/TGIFHacks%20%2308%20-%20Intro%20to%20Arduino))
+
+> A guide to installing Python & pip for many of the workshops above can be found [here](https://github.com/jarrettyeo/NTUOSS-PythonPipInstallation).
