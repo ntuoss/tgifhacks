@@ -2,6 +2,8 @@
 
 You can find a full list of TGIFHacks events [here](http://ntuoss.com/events.html) or [on Facebook](https://www.facebook.com/ntuoss/events/). Listed below are the resources for some of the workshops available online.
 
+- #78 - An Introduction to Scientific Programming ([Github Repo](https://github.com/kunmishra2599/NTUOSS-ScientificProgramming))
+- #77 - The Rationale for Relational Databases (PayPal) ([Slide Deck](https://drive.google.com/open?id=15UZPBQQbrIEceOP9fBVjEgplaVs02I9D))
 - #76 - Introduction to Ionic Framework ([GitHub Repo](https://github.com/clarencecastillo/NTUOSS-Ionic3Workshop))
 - #75 - Building Chat Apps w/ Flask & WebSockets ([GitHub Repo](https://github.com/jarrettyeo/NTUOSS-FlaskWebSocketChatApp))
 - #74 - Introduction to Machine Learning ([GitHub Repo](https://github.com/chaitjo/NTUOSS-MachineLearningWorkshop))
