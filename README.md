@@ -2,6 +2,7 @@
 
 You can find a full list of TGIFHacks events [here](http://ntuoss.com/events.html) or [on Facebook](https://www.facebook.com/ntuoss/events/). Listed below are the resources for some of the workshops available online.
 
+- #82 - Computer Vision: Dogs vs Cats ([Github Repo](https://github.com/anqitu/NTUOSS-ImageRecognitionWorkshop))
 - #78 - An Introduction to Scientific Programming ([Github Repo](https://github.com/kunmishra2599/NTUOSS-ScientificProgramming))
 - #77 - The Rationale for Relational Databases (PayPal) ([Slide Deck](https://drive.google.com/open?id=15UZPBQQbrIEceOP9fBVjEgplaVs02I9D))
 - #76 - Introduction to Ionic Framework ([GitHub Repo](https://github.com/clarencecastillo/NTUOSS-Ionic3Workshop))
