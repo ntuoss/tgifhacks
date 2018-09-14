@@ -1,0 +1,25 @@
+<div class="home-container">
+  <div class="home-header">
+    <img class="logo" src="../../../assets/logo.png">
+    <h1>TGIFHacks #84</h1>
+    <h2>Affable: Introduction to Pandas and Data Science</h2>
+    <br>
+    <h5>Friday, 14 September 2018</h5>
+    <h5>6:30 PM - 8:30 PM Singapore Standard Time</h5>
+    <h5>NTU LT1 Block NS3 NS3-02-09</h5>
+  </div>
+  <div class="links-container">
+    <div class="card" *ngFor="let link of links">
+      <div class="card-body">
+        <h4 class="card-title">{{link.title}}</h4>
+        <a class="card-subtitle" [href]="link.url" target="_blank">{{link.url}}</a>
+      </div>
+      <div class="card-body qr-code-wrapper">
+        <img class="card-img-top qr-code" [src]="link.qrUrl">
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    Made with <i class="fa fa-heart" style="color: red"></i> by <a href="https://www.ntuoss.com/" target="_blank">NTUOSS</a>
+  </div>
+</div>

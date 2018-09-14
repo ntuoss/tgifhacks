@@ -1,0 +1,17 @@
+$background-img: '../assets/background.png';
+
+@keyframes scroll {
+  100% {
+    background-position: -3000px 3000px;
+  }
+}
+
+.backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  background: url($background-img);
+  animation: 100s scroll infinite linear;
+}
