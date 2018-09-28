@@ -1,12 +1,12 @@
 <div class="home-container">
   <div class="home-header">
     <img class="logo" src="../../../assets/logo.png">
-    <h1>TGIFHacks #84</h1>
-    <h2>Affable: Introduction to Pandas and Data Science</h2>
+    <h2>{{event.subTitle}}</h2>
+    <h1>{{event.title}}</h1>
     <br>
-    <h5>Friday, 14 September 2018</h5>
-    <h5>6:30 PM - 8:30 PM Singapore Standard Time</h5>
-    <h5>NTU LT1 Block NS3 NS3-02-09</h5>
+    <h5>{{event.date}}</h5>
+    <h5>{{event.time}}</h5>
+    <h5>{{event.venue}}</h5>
   </div>
   <div class="links-container">
     <div class="card" *ngFor="let link of links">
