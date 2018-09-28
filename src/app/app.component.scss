@@ -9,9 +9,8 @@ $background-img: 'https://www.toptal.com/designers/subtlepatterns/patterns/funky
 .backdrop {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: auto;
   top: 0;
-  z-index: -1;
   background: url($background-img);
   animation: 100s scroll infinite linear;
 }

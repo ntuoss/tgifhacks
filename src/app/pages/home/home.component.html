@@ -1,12 +1,12 @@
 <div class="home-container">
   <div class="home-header">
     <img class="logo" src="../../../assets/logo.png">
-    <h2>{{event.subTitle}}</h2>
-    <h1>{{event.title}}</h1>
+    <h1 class="subTitle">{{event.subTitle}}</h1>
+    <h1 class="title">{{event.title}}</h1>
     <br>
-    <h5>{{event.date}}</h5>
-    <h5>{{event.time}}</h5>
-    <h5>{{event.venue}}</h5>
+    <h1 class="info">{{event.date}}</h1>
+    <h1 class="info">{{event.time}}</h1>
+    <h1 class="info">{{event.venue}}</h1>
   </div>
   <div class="links-container">
     <div class="card" *ngFor="let link of links">
