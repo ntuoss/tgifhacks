@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   event: Event = {
-    subTitle: 'TGIFHacks #86',
-    title: 'Shopee: Developing High Performance Web Apps',
-    date: 'Friday, 28 September 2018',
+    subTitle: 'TGIFHacks #87',
+    title: 'Unity Game Development: Rebuilding Super Mario Bros',
+    date: 'Friday, 12 October 2018',
     time: '6:30 PM - 8:30 PM Singapore Standard Time',
     venue: 'NTU LT1 Block NS3 NS3-02-09'
   };
@@ -21,11 +21,11 @@ export class HomeComponent implements OnInit {
       url: 'https://links.ntuoss.com/ask',
       qrUrl: 'https://links.ntuoss.com/ask.qr'
     },
-    // {
-    //   title: 'Workshop Content',
-    //   url: 'https://links.ntuoss.com/workshop',
-    //   qrUrl: 'https://links.ntuoss.com/workshop.qr'
-    // },
+    {
+      title: 'Workshop Content',
+      url: 'https://links.ntuoss.com/workshop',
+      qrUrl: 'https://links.ntuoss.com/workshop.qr'
+    },
     {
       title: 'Workshop Feedback',
       url: 'https://links.ntuoss.com/feedback',
