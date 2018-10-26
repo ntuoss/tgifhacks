@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   event: Event = {
-    subTitle: 'TGIFHacks #88',
-    title: 'Let\'s Git Going: An Introduction to Git',
-    date: 'Friday, 19 October 2018',
+    subTitle: 'TGIFHacks #89',
+    title: 'Flutter: Mobile App Development',
+    date: 'Friday, 26 October 2018',
     time: '6:30 PM - 8:30 PM Singapore Standard Time',
     venue: 'NTU LT1 Block NS3 NS3-02-09'
   };
