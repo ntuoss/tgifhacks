@@ -2,6 +2,10 @@
 
 You can find a full list of TGIFHacks events [here](http://ntuoss.com/events.html) or [on Facebook](https://www.facebook.com/ntuoss/events/). Listed below are the resources for some of the workshops available online.
 
+- #90 - Blockchains and Smart Contracts: How smart is your contract? ([Github Repo](https://github.com/HandsomeJeff/neo-python-workshop))
+- #89 - Flutter | Mobile App Development ([Github Repo](https://github.com/ZaynJarvis/NTUOSS-FlutterWorkshop))
+- #88 - Introduction to Git: Let’s git going! ([Github Repo](https://github.com/clarencecastillo/NTUOSS-GitWorkshop))
+- #87 - Unity Game Development: Rebuilding Super Mario Bros ([Github Repo](https://github.com/HORACEYOUNG/NTUOSS-UnityGameWorkshop))
 - #82 - Computer Vision: Dogs vs Cats ([Github Repo](https://github.com/anqitu/NTUOSS-ImageRecognitionWorkshop))
 - #78 - An Introduction to Scientific Programming ([Github Repo](https://github.com/kunmishra2599/NTUOSS-ScientificProgramming))
 - #77 - The Rationale for Relational Databases (PayPal) ([Slide Deck](https://drive.google.com/open?id=15UZPBQQbrIEceOP9fBVjEgplaVs02I9D))
