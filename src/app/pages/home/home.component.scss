@@ -1,20 +1,21 @@
 .home-container {
   max-width: 80%;
   margin: 0 auto;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
   padding-top: 6vmin;
 }
+
 .title,
 .subTitle {
   font-size: 2rem;
 }
+
 .info {
   font-size: 1.5rem;
   color: rgb(27,27,27);
   font-weight: 300;
 }
+
 .footer {
   padding-top: 12vmin;
   width: 100%;
@@ -60,16 +61,16 @@
     }
   }
 }
-@media screen and (max-width: 760px) {
-  .title,
-.subTitle,
-.info {
-  font-size: 1.2rem;
-}
-  .home-header {
-    text-align: center;
-  }
-    .links-container {
-      flex-flow: column;
-    }
-}
+// @media screen and (max-width: 760px) {
+//   .title,
+// .subTitle,
+// .info {
+//   font-size: 1.2rem;
+// }
+//   .home-header {
+//     text-align: center;
+//   }
+//     .links-container {
+//       flex-flow: column;
+//     }
+// }

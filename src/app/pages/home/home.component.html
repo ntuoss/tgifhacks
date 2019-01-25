@@ -1,12 +1,12 @@
 <div class="home-container">
-  <div class="home-header">
+  <div class="home-header" *ngIf="event">
     <img class="logo" src="../../../assets/logo.png">
-    <h1 class="subTitle">{{event.subTitle}}</h1>
+    <h1 class="subTitle">TGIFHacks #{{event.tgif}}</h1>
     <h1 class="title">{{event.title}}</h1>
     <br>
-    <h1 class="info">{{event.date}}</h1>
-    <h1 class="info">{{event.time}}</h1>
-    <h1 class="info">{{event.venue}}</h1>
+    <h1 class="info">{{event.startTime | amDateFormat : 'dddd, MMMM D YYYY'}}</h1>
+    <h1 class="info">{{event.startTime | amDateFormat : 'h:m A'}} - {{event.endTime | amDateFormat : 'h:m A'}} Singapore Standard Time</h1>
+    <h1 class="info">{{event.venue.addressLine1}} {{event.venue.addressLine2}}</h1>
   </div>
   <div class="links-container">
     <div class="card" *ngFor="let link of links">

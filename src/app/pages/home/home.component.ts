@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { EventsService } from 'src/app/services/events/events.service';
+import { Event } from 'hackoss';
 
 @Component({
   selector: 'app-home',
@@ -7,13 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  event: Event = {
-    subTitle: 'TGIFHacks #91',
-    title: 'Google: Android Basics',
-    date: 'Friday, 25 January 2019',
-    time: '6:30 PM - 8:30 PM Singapore Standard Time',
-    venue: 'NTU LT1 Block NS3 NS3-02-09'
-  };
+  event: Event;
+  // event: any = {
+  //   subTitle: 'TGIFHacks #91',
+  //   title: 'Google: Android Basics',
+  //   date: 'Friday, 25 January 2019',
+  //   time: '6:30 PM - 8:30 PM Singapore Standard Time',
+  //   venue: 'NTU LT1 Block NS3 NS3-02-09'
+  // };
 
   links: Link[] = [
     {
@@ -33,19 +36,21 @@ export class HomeComponent implements OnInit {
     },
   ];
 
-  constructor() { }
+  constructor(private eventsService: EventsService) { }
 
   ngOnInit() {
+    this.getLatestEvent().then(event => {
+      this.event = event;
+    });
   }
 
-}
+  async getLatestEvent(): Promise<Event> {
+    let events = await this.eventsService.getEvents();
+    events = events.filter(event => event.status !== 'draft');
+    events = events.sort((event1, event2) => event2.startTime.getTime() - event1.startTime.getTime());
+    return events[0];
+  }
 
-interface Event {
-  subTitle: string;
-  title: string;
-  date: string;
-  time: string;
-  venue: string;
 }
 
 export interface Link {
