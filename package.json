@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "deploy": "npm run lint && npm run build && firebase deploy"
   },
   "private": true,
   "dependencies": {
