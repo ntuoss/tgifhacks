@@ -45,9 +45,11 @@ export class HomeComponent implements OnInit {
   }
 
   async getLatestEvent(): Promise<Event> {
-    let events = await this.eventsService.getEvents();
-    events = events.filter(event => event.status !== 'draft');
-    events = events.sort((event1, event2) => event2.startTime.getTime() - event1.startTime.getTime());
+    const events = await this.eventsService.getEvents([{
+      fieldPath: 'status',
+      opStr: '==',
+      value: 'live'
+    }], 1);
     return events[0];
   }
 
