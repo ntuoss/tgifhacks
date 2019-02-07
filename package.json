@@ -24,7 +24,7 @@
     "bootstrap": "^4.2.1",
     "core-js": "^2.6.3",
     "font-awesome": "^4.7.0",
-    "hackoss": "^0.4.1",
+    "hackoss": "0.4.2",
     "moment": "^2.24.0",
     "ngx-moment": "^3.3.0",
     "rxjs": "^6.3.3",
