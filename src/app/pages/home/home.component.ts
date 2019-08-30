@@ -26,7 +26,8 @@ const WORKSHOP_FEEDBACK: Link = {
 	styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-	event: Event;
+	// event: Event;
+	event: any;
 
 	links: Link[] = [
 		// WORKSHOP_LIVE_QNA,
@@ -37,8 +38,27 @@ export class HomeComponent implements OnInit {
 
 	ngOnInit() {
 		this.getLatestEvent().then(event => {
-			this.event = event;
-			console.log(event);
+			//
+
+			// Friday, August 30 2019
+			// 6:30 PM - 8:30 PM Singapore Standard Time
+			// Nanyang Technological University Block NS3 NS3-02-09 LT1
+			//   <h1 class="subTitle">TGIFHacks #{{event.tgif}}</h1>
+			// <h1 class="title">{{event.title}}</h1>
+			// <br>
+			// <h1 class="info">{{event.startTime | amDateFormat : 'dddd, MMMM D YYYY'}}</h1>
+			// <h1 class="info">{{event.startTime | amDateFormat : 'h:m A'}} - {{event.endTime | amDateFormat : 'h:m A'}} Singapore Standard Time</h1>
+			// <h1 class="info">{{event.venue.addressLine1}} {{event.venue.addressLine2}}</h1>
+			this.event = {
+				tgif: '98',
+				title: 'Data Science 1/3: Getting into Data Science with Pandas',
+				startTime: new Date('Friday, August 30 2019 6:30 PM'),
+				endTime: new Date('Friday, August 30 2019 8:30 PM'),
+				venue: {
+					addressLine1: 'Nanyang Technological University',
+					addressLine2: 'NS3 NS3-02-09 LT1',
+				},
+			};
 			if (event.githubUrl) {
 				this.links.splice(1, 0, WORKSHOP_CONTENT);
 			}

@@ -17,10 +17,12 @@
 }
 
 .footer {
-  padding-top: 12vmin;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 10px;
   width: 100%;
   text-align: center;
-  padding: 6vmin;
 }
 
 .home-header {
@@ -59,16 +61,3 @@
     }
   }
 }
-// @media screen and (max-width: 760px) {
-//   .title,
-// .subTitle,
-// .info {
-//   font-size: 1.2rem;
-// }
-//   .home-header {
-//     text-align: center;
-//   }
-//     .links-container {
-//       flex-flow: column;
-//     }
-// }
