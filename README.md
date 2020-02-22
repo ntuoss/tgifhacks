@@ -2,7 +2,7 @@
 
 You can find a full list of TGIFHacks events [here](http://ntuoss.com/events.html) or [on Facebook](https://www.facebook.com/ntuoss/events/). Listed below are the resources for some of the workshops available online.
 
-- #106 - Web Dev 2/2: Back End web development ([Github Repo](https://github.com/naseer2426/Backend-Workshop))
+- #109 - Web Dev 2/2: Back End web development ([Github Repo](https://github.com/naseer2426/Backend-Workshop))
 - #108 - Web Dev 1/2: Front End with React ([Github Repo](https://github.com/laksh22/NTUOSS-ReactWorkshop)) ([YouTube Video](https://www.youtube.com/watch?v=ztnUJ-UmHWU)) ([Medium Article](https://medium.com/ntuoss/tgifhacks-108-front-end-with-react-d79b10d76c97))
 - #106 - App development with React Native ([Github Repo](https://github.com/OkkarMin/react-native-workshop))
 - #105 - Game Development with Unreal ([Github Repo](https://github.com/ntuoss/NTUOSS-UnrealGameWorkshop))
