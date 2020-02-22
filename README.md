@@ -2,6 +2,15 @@
 
 You can find a full list of TGIFHacks events [here](http://ntuoss.com/events.html) or [on Facebook](https://www.facebook.com/ntuoss/events/). Listed below are the resources for some of the workshops available online.
 
+- #106 - Web Dev 2/2: Back End web development ([Github Repo](https://github.com/naseer2426/Backend-Workshop))
+- #108 - Web Dev 1/2: Front End with React ([Github Repo](https://github.com/laksh22/NTUOSS-ReactWorkshop)) ([YouTube Video](https://www.youtube.com/watch?v=ztnUJ-UmHWU)) ([Medium Article](https://medium.com/ntuoss/tgifhacks-108-front-end-with-react-d79b10d76c97))
+- #106 - App development with React Native ([Github Repo](https://github.com/OkkarMin/react-native-workshop))
+- #105 - Game Development with Unreal ([Github Repo](https://github.com/ntuoss/NTUOSS-UnrealGameWorkshop))
+- #104 - Make your own meme generator ([Github Repo](https://github.com/ABHINAV112/NTUOSS-MemeItWorkshop))
+- #102 - Rapid Prototyping ([Slide Deck](https://docs.google.com/presentation/d/1JxaGxxgmA6U-omEZJyckJN4JJPtqVypii66tSOBwiLQ/edit?usp=sharing)) ([Medium Article](https://medium.com/ntuoss/tgifhacks-102-rapid-prototyping-dabf9af73fb3))
+- #100 - Category Recommendation (Shopee) ([YouTube Video](https://www.youtube.com/watch?v=iSmW00bJYY4))
+- #99 - Data Odyssey: Practical Machine Learning ([Github Repo](https://github.com/ShirleyHan6/NTUOSS-DataOdyssey)) ([YouTube Video](https://www.youtube.com/watch?v=57uKWvGKghg&t=3024s)) ([Medium Article](https://medium.com/ntuoss/data-odyssey-practical-machine-learning-c22c20cc061))
+- #98 - Getting into Data Science with Pandas ([Github Repo](https://github.com/wilsonteng97/NTUOSS-PandasBasics)) ([YouTube Video](https://www.youtube.com/watch?v=uOEKrymbvoc&t=4594s)) ([Medium Article](https://medium.com/ntuoss/getting-in-data-science-with-pandas-ed4a282d7710))
 - #90 - Blockchains and Smart Contracts: How smart is your contract? ([Github Repo](https://github.com/HandsomeJeff/neo-python-workshop))
 - #89 - Flutter | Mobile App Development ([Github Repo](https://github.com/ZaynJarvis/NTUOSS-FlutterWorkshop))
 - #88 - Introduction to Git: Let’s git going! ([Github Repo](https://github.com/clarencecastillo/NTUOSS-GitWorkshop))
